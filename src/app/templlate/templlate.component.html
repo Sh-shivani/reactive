@@ -1,0 +1,7 @@
+<p>templlate works!</p>
+<form #userForm="ngForm"(ngSubmit)="onSubmit(userForm.value)">
+    <input type="text" name="email" ngModel><br><br>
+    <input type="password" name="password"><br><br>
+    <button type="submit">Login </button>
+</form>
+<app-root></app-root>

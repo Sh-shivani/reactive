@@ -1,0 +1,14 @@
+h1
+{
+    background-color: hotpink;
+}
+h2
+{
+    background-color: blueviolet;
+}
+input.ng-invalid {
+    border-left: 5px solid red;
+}
+input.ng-valid {
+    border-left: 5px solid green;
+}
